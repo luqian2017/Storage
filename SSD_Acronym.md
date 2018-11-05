@@ -5,11 +5,16 @@ BCH: Bose, Ray-Chaudhuri and Hocquenghem (ECC纠错算法)
 BiCS: Bit Cost Scalable
 BL: BitLane
 BSL:
-CT: Charge Trap (电阱) 
+CQ: Completion Queue (in NVMe, locates in host memory)
+CRS: Configurationn Retry Status (in PCIe)
+CT: Charge Trap (电阱)
+DB: Doorbell Register (in NVMe, locates in SSD controller)
 DLLP: Data Link Layer Packet (in PCIe)
 DMAC: Direct Memory Access Controller
 DWPD: Drive Writes Per Day
+EP: (PCIe) Endpoint
 FIS: Frame Information Structure
+FLR: Function Level Reset (in PCIe)
 FOB: Fresh out of the Box (空盘测试)
 FTL: Flash Translation Layer
 GC: Garbage Collection
@@ -21,14 +26,17 @@ LBA: Logical Block Address
 LDPC: Low Density Parity Check Code (ECC纠错算法)
 LUN: Logical Unit (a.k.a Die，是接收和执行闪存指令的基本单元)
 MLC: Multiple Level Cell
+MPS: Maximum Payload Size (in PCIe)
+MRRS: Maximum Read Request Size (inPCIe)
 MTBF: Mean Time Between Failure
 OLTP: (联机事物处理)
 OP: Over Provisioning
+OS: Ordered Sets (in PCIe)
 OTP: One Time Programming (Micron闪存内部一区域，可存储出厂坏块信息)
 P2L: Pysical to Logical
 PCIe: Peripheral Component Interconnect Express
 P/E: Program/Erase
-QLC: 
+QLC:
 RAID: Redundant Arrays of Independent Disks
 RBER: Raw Bit Error Rate
 RC: Root Complex (the root of PCIe topology structure)
@@ -39,6 +47,7 @@ SL: Source Line
 SL: Select Line
 SLC: Single Level Cell
 SMP: Symmetric Multi Processor
+SQ: Submission Queue (in NVMe, locates in host memory)
 SSD: Solid State Disk
 TAT: Trap-Assisted Tunneling
 TBW: Terabytes Written
@@ -46,6 +55,7 @@ TLC: Triple Level Cell
 TLP: Translation Layer Packet (in PCIe)
 TCAT: Terabit Cell Array Transistor (金属栅极三维闪存技术)
 UBER: Uncorrectable Bit Error Rate
+UC: Unexpected Completion (in PCIe)
 UECC: Uncorrectable Error Correction Code
 VPBM: Valid Page Bit Map (记录每个物理块上哪个页有有效数据)
 VPC: Valid Page Count (记录每个物理块上的有效页个数)
