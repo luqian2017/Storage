@@ -3,6 +3,7 @@ AHCI: Advanced Host Controller Interface
 ALE:  Address Latch Enable (闪存管脚信号定义)
 AMP: Asymmetric Multi-processor
 ASPM: (Hardware Initiated) Active State Power Management
+AT: Address Type (in PCIe)
 BAR: Base Address Register (in PCIe)
 BCH: Bose, Ray-Chaudhuri and Hocquenghem (ECC纠错算法)
 BGA: Ball Grid Array (BGA SSD优势在于lower power consumption, small chip package size等)
@@ -60,10 +61,12 @@ LRS: Local Redundant Service (in Microsoft Azure Cloud)
 LUN: Logical Unit (a.k.a Die，是接收和执行闪存指令的基本单元)
 MDAT: Minimum Device Sleep Assertion Time (in SATA 3.2 Power Management)
 MLC: Multiple Level Cell
+MOSFET: Metal Oxide Semiconductor Field Effect Transistor 金氧半场效晶体管 
 MPS: Maximum Payload Size (in PCIe)
 MRRS: Maximum Read Request Size (in PCIe)
 MTBF: Mean Time Between Failure
 NCQ: Native Command Queueing
+NGFF: Next Generation Form Factor (Intel为Ultrabook打造的超薄SSD)
 NS: Namespace (in NVMe)
 NSID: Namespace Identifier 
 NVM: Non-Volatile Memory
@@ -87,12 +90,14 @@ RBER: Raw Bit Error Rate
 RC: Root Complex (the root of PCIe topology structure)
 RCB: Read Completion Boundary (in PCIe)
 RD: Read Disturb (读干扰)
+RDFE: Red Dog Front End (in Microsoft Azure Cloud)
 RDMA: Remote Direct Memory Access
 RE: Read Enable (时序信号)
 RRP: Physical Region Page (in NVMe, 物理区域页)
 RTD3: Runtime D3 (in SATA Power Management)
 SAS: Serial Attached SCSI
 SATA: Serial Advanced Technology Attachment
+SCM: Storage-class memory (a.k.a persistent memory)
 SFF: SSD Form Factor
 SGL: Scatter Gather List (链表，描述内存空间的数据结构)
 SKP: (in PCIe Power Management)
@@ -113,6 +118,9 @@ STP: Serial ATA Tunneling Protocol (part of SAS)
 SWL: Static Wear Leveling 
 TAT: Trap-Assisted Tunneling
 TBW: Terabytes Written
+TC: Traffic Class (in PCIe)
+TD: TLP Digest (in PCIe)
+TH: TLP Processing Hints (in PCIe)
 TLC: Triple Level Cell
 TLP: Translation Layer Packet (in PCIe)
 TCAT: Terabit Cell Array Transistor (金属栅极三维闪存技术)
@@ -123,6 +131,7 @@ UC: Unexpected Completion (in PCIe)
 UCL: Upper Confidence Limit
 UECC: Uncorrectable Error Correction Code
 UFS: Universal Flash Storage (可视为eMMC进阶版)
+VCS: Virtual Channel ? (in PCIe)
 VF: Virtual Function (in NVMe)
 VHD: Virtual Hard-Drive
 VPBM: Valid Page Bit Map (记录每个物理块上哪个页有有效数据)
