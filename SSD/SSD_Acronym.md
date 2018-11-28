@@ -14,6 +14,7 @@ BEC: Binary Erasure Channel (如果传输出错，接收方收不到信息)
 Blob: Binary Large Object (in Microsoft Azure Cloud)
 BSC: Binary Symmetric Channel (如果传输出错，接收方可能收到错误信息)
 BSL:
+CDW: Command DWord (in NVMe command fields)
 CE: Chip Enable  (闪存管脚信号定义)
 CLE: Command Latch Enable (闪存管脚信号定义)
 CLK: Clock
@@ -56,6 +57,7 @@ IW: Interoperability Workshop
 L2P: Logical to Pysical
 LA: Logical Address
 LBA: Logical Block Address
+LCRC: Link CRC (in PCIe)
 LDPC: Low Density Parity Check Code (ECC纠错算法)
 LRS: Local Redundant Service (in Microsoft Azure Cloud)
 LUN: Logical Unit (a.k.a Die，是接收和执行闪存指令的基本单元)
@@ -63,12 +65,14 @@ MDAT: Minimum Device Sleep Assertion Time (in SATA 3.2 Power Management)
 MLC: Multiple Level Cell
 MOSFET: Metal Oxide Semiconductor Field Effect Transistor 金氧半场效晶体管 
 MPS: Maximum Payload Size (in PCIe)
+MPTR: MetadataPointer (in NVMe command fields)
 MRRS: Maximum Read Request Size (in PCIe)
 MTBF: Mean Time Between Failure
 NCQ: Native Command Queueing
 NGFF: Next Generation Form Factor (Intel为Ultrabook打造的超薄SSD)
+NQN: NVMe Qualified Name (in NVMe over Fabric)
 NS: Namespace (in NVMe)
-NSID: Namespace Identifier 
+NSID: Namespace Identifier (in NVME command fields)
 NVM: Non-Volatile Memory
 NVMe: Non-Volatile Memory Express
 OLTP: (联机事物处理)
@@ -111,6 +115,7 @@ SPC: Single Bit Parity Check Code (in parity check)
 SQ: Submission Queue (in NVMe, locates in host memory)
 SR: Status Register
 SR-IOV: Single Root-IO Virtualization
+SRP: (a protocol like iSCSI, iSER?)
 SS: Sample Size 
 SSD: Solid State Disk
 SSP: Serial SCSI Protocol (part of SAS)
