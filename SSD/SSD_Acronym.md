@@ -8,6 +8,7 @@ BAR: Base Address Register (in PCIe)
 BCH: Bose, Ray-Chaudhuri and Hocquenghem (ECC纠错算法)
 BGA: Ball Grid Array (BGA SSD优势在于lower power consumption, small chip package size等)
 BiCS: Bit Cost Scalable
+BIO: Block IO (used in Linux)
 BL: BitLane
 BDF: Bus+Device+Function (PCIe的寻址ID) 
 BEC: Binary Erasure Channel (如果传输出错，接收方收不到信息)
